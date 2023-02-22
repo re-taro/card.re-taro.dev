@@ -9,13 +9,7 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-permissions:
-  actions: write
-  contents: read
-  deployments: write
-  id-token: write
-  pages: write
-  pull-requests: write
+permissions: write-all
 
 jobs:
   release:
