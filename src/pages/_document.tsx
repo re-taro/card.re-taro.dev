@@ -45,7 +45,7 @@ class Document extends NextDocument {
           <meta name="twitter:site" content="@10969_rintaro" />
           <meta name="twitter:creator" content="@10969_rintaro" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href={`${location.origin + location.pathname}/favicon.ico`} />
           {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
           <title>virtual name card for Rintaro</title>
         </Head>

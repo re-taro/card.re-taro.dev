@@ -13,8 +13,8 @@ const Home = () => {
   const { embed } = router.query
   const [fullScreen, setFullScreen] = useState(false)
   useEffect(() => {
-    const cardFrontImagePath = '/front.png'
-    const cardBackImagePath = '/back.png'
+    const cardFrontImagePath = `${location.origin + location.pathname}/front.png`
+    const cardBackImagePath = `${location.origin + location.pathname}/back.png`
     const renderer = new THREE.WebGLRenderer({
       antialias: true,
       alpha: true,
@@ -147,7 +147,7 @@ const Home = () => {
             </button>
             )
           : (
-            <Link href="/home" className={`${inter.className} ${styles.container}`}>
+            <Link href={`${location.origin + location.pathname}/home`} className={`${inter.className} ${styles.container}`}>
               <span className={styles.typograph}>{'<-'}</span>
               <span className={styles.typograph}>re-taro.dev</span>
             </Link>
