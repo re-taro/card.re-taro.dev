@@ -3,7 +3,6 @@ import { Inter } from '@next/font/google'
 import { useEffect, useState } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-import Link from 'next/link'
 import * as styles from '../styles/home.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -147,10 +146,10 @@ const Home = () => {
             </button>
             )
           : (
-            <Link href="/home" className={`${inter.className} ${styles.container}`}>
+            <a href="https://re-taro.dev" target="_blank" rel="noreferrer" className={`${inter.className} ${styles.container}`}>
               <span className={styles.typograph}>{'<-'}</span>
               <span className={styles.typograph}>re-taro.dev</span>
-            </Link>
+            </a>
             )
       }
     </main>
