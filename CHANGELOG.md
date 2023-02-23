@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/re-taro-dev/card.re-taro.dev/compare/1.1.0...1.2.0) (2023-02-23)
+
+
+### Features
+
+* fix redirect link ([af5f258](https://github.com/re-taro-dev/card.re-taro.dev/commit/af5f25867369bf08ddf3a618c1a8ee82d9a9b7bf))
+
 ## [1.1.0](https://github.com/re-taro-dev/card.re-taro.dev/compare/1.0.1...1.1.0) (2023-02-23)
 
 
