@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/re-taro-dev/card.re-taro.dev/compare/1.0.0...1.0.1) (2023-02-23)
+
+
+### Bug Fixes
+
+* **ci:** fix permissions of ci ([e4f8bb3](https://github.com/re-taro-dev/card.re-taro.dev/commit/e4f8bb373536d1b181ab623c4eca3ea6d7f3b413))
+
 ## 1.0.0 (2023-02-22)
 
 
