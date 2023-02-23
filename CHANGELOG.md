@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/re-taro-dev/card.re-taro.dev/compare/1.2.0...1.2.1) (2023-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency three to v0.150.0 ([5d13a90](https://github.com/re-taro-dev/card.re-taro.dev/commit/5d13a9092dbc676c08c200f837cc637627476164))
+
 ## [1.2.0](https://github.com/re-taro-dev/card.re-taro.dev/compare/1.1.0...1.2.0) (2023-02-23)
 
 
