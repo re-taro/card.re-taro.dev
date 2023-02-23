@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/re-taro-dev/card.re-taro.dev/compare/1.0.1...1.1.0) (2023-02-23)
+
+
+### Features
+
+* add CNAME ([398838e](https://github.com/re-taro-dev/card.re-taro.dev/commit/398838ee1848df4bb76c9140db617bcd6ad9dd85))
+* fix blocken link ([6a1a9f4](https://github.com/re-taro-dev/card.re-taro.dev/commit/6a1a9f49b1224b9c2c8d4c3fe864aec94c4b3575))
+
+
+### Bug Fixes
+
+* fix link ([5e28ab0](https://github.com/re-taro-dev/card.re-taro.dev/commit/5e28ab0e89ac9fdeda99ce5ea0355dcbf678bd60))
+
 ## [1.0.1](https://github.com/re-taro-dev/card.re-taro.dev/compare/1.0.0...1.0.1) (2023-02-23)
 
 
