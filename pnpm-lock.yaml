@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@next/font': 13.2.3
-  '@re-taro/eslint-config': 1.5.0
+  '@re-taro/eslint-config': 1.5.1
   '@types/node': 18.14.1
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -26,7 +26,7 @@ dependencies:
   three: 0.150.1
 
 devDependencies:
-  '@re-taro/eslint-config': 1.5.0_7kw3g6rralp5ps6mg3uyzz6azm
+  '@re-taro/eslint-config': 1.5.1_7kw3g6rralp5ps6mg3uyzz6azm
   '@types/node': 18.14.1
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -558,8 +558,8 @@ packages:
   /@next/env/13.2.3:
     resolution: {integrity: sha512-FN50r/E+b8wuqyRjmGaqvqNDuWBWYWQiigfZ50KnSFH0f+AMQQyaZl+Zm2+CIpKk0fL9QxhLxOpTVA3xFHgFow==}
 
-  /@next/eslint-plugin-next/13.2.0:
-    resolution: {integrity: sha512-/UW29MPgX5P1J1AVIj9g1TCv4BKzUTBB54wgtEp7X15pEKerACGYv9iny44KGZxSJDizWD2+Zaw6+E7do4kwRA==}
+  /@next/eslint-plugin-next/13.2.1:
+    resolution: {integrity: sha512-r0i5rcO6SMAZtqiGarUVMr3k256X0R0j6pEkKg4PxqUW+hG0qgMxRVAJsuoRG5OBFkCOlSfWZJ0mP9fQdCcyNg==}
     dependencies:
       glob: 7.1.7
     dev: true
@@ -705,12 +705,12 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@re-taro/eslint-config/1.5.0_7kw3g6rralp5ps6mg3uyzz6azm:
-    resolution: {integrity: sha512-ZvMQs8OKfe/1ghIXP6afWtgAgMYeOHAlawmgQxsnbTN07NB+6ROwCh8+1JldyvXhrVxLP1unsq05cl2iw6PIxw==}
+  /@re-taro/eslint-config/1.5.1_7kw3g6rralp5ps6mg3uyzz6azm:
+    resolution: {integrity: sha512-PKyLxIumS/T0orgycDHd/jkHX4wRCx3icGtabfPma1Mhgm2vK2+8gZI7+CWyTtaBnjiNYDBkemu80zq7FhqyNQ==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@re-taro/eslint-plugin': 1.5.0_7kw3g6rralp5ps6mg3uyzz6azm
+      '@re-taro/eslint-plugin': 1.5.1_7kw3g6rralp5ps6mg3uyzz6azm
       eslint: 8.34.0
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
@@ -718,12 +718,12 @@ packages:
       - typescript
     dev: true
 
-  /@re-taro/eslint-plugin/1.5.0_7kw3g6rralp5ps6mg3uyzz6azm:
-    resolution: {integrity: sha512-j0tQrMEA60vXwMqSor/O5tWHP3ac34oOcO+zpXXlklBRSk1J0+scsMaD0ikP00cihC5IwXJAfrBGHZZkKo8Zww==}
+  /@re-taro/eslint-plugin/1.5.1_7kw3g6rralp5ps6mg3uyzz6azm:
+    resolution: {integrity: sha512-cxOZ371217kEVT4WlavzlmBZ3cwKT1qA1rkUXhf2dl0Gr2c57RWR+CDsNGBXoQjxdm8YwA+kQe7C4USM2o4Tiw==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
-      '@next/eslint-plugin-next': 13.2.0
+      '@next/eslint-plugin-next': 13.2.1
       '@typescript-eslint/eslint-plugin': 5.53.0_ny4s7qc6yg74faf3d6xty2ofzy
       '@typescript-eslint/parser': 5.53.0_7kw3g6rralp5ps6mg3uyzz6azm
       eslint: 8.34.0
