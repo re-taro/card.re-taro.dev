@@ -70,4 +70,4 @@ jobs:
       - name: Deploy to GitHub Pages
         if: ${{ steps.release.outputs.release_created }}
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
