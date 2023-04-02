@@ -32,7 +32,7 @@ jobs:
           include-v-in-tag: false
       - name: Setup Pages
         if: ${{ steps.release.outputs.release_created }}
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v3
         with:
           # Automatically inject basePath in your Next.js configuration file and disable
           # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
