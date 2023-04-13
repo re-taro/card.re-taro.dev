@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@next/font':
-    specifier: 13.2.4
-    version: 13.2.4
+    specifier: 13.3.0
+    version: 13.3.0
   '@vanilla-extract/css':
     specifier: 1.11.0
     version: 1.11.0
@@ -559,8 +559,8 @@ packages:
       glob: 7.1.7
     dev: true
 
-  /@next/font@13.2.4:
-    resolution: {integrity: sha512-lMAnuOYjv5g22WhD00u0DQ9u2rTMJH0S64PKE4Sy8Y2q+FJTYs6ZHT2z3VRoI8+AOWSLK4FirpnygcjOienQ9A==}
+  /@next/font@13.3.0:
+    resolution: {integrity: sha512-xUv7VRUA2Zr6n/KJDILyv7/zGy9xKUsyQURaQqYr7lVxn0REScazwyZQzhSm+DnJoUyo+9DcFs2J3WsZXHUvQw==}
     dev: false
 
   /@next/swc-android-arm-eabi@13.2.4:
