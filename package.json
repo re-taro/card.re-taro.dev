@@ -37,6 +37,6 @@
     "@vanilla-extract/next-plugin": "2.1.2",
     "eslint": "8.40.0",
     "typescript": "5.0.4",
-    "webpack": "5.82.1"
+    "webpack": "5.83.1"
   }
 }
