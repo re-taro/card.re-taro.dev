@@ -5,69 +5,53 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-  pull-requests: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
-  release:
+  release-please:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    outputs:
+      releases-created: ${{ steps.release.outputs.release_created }}
+    steps:
+      - uses: actions/checkout@v3.5.2
+        with:
+          fetch-depth: 0
+      - id: release
+        uses: google-github-actions/release-please-action@v3.7.9
+        with:
+          include-v-in-tag: false
+          release-type: node
+          token: ${{ secrets.GITHUB_TOKEN }}
+  deploy:
+    needs: release-please
+    if: ${{ needs.release-please.outputs.releases-created }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: "pages"
+      cancel-in-progress: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Release please
-        id: release
-        uses: google-github-actions/release-please-action@v3
+      - uses: actions/checkout@v3.5.2
+      - name: Setup Node.js
+        uses: re-taro/actions/setup-node@v1.0.0
         with:
-          release-type: node
-          include-v-in-tag: false
+          node-version-file: .tool-versions
+      - name: Build
+        shell: sh
+        run: pnpm build
       - name: Setup Pages
-        if: ${{ steps.release.outputs.release_created }}
-        uses: actions/configure-pages@v3
-        with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: next
-      - name: Install pnpm
-        if: ${{ steps.release.outputs.release_created }}
-        uses: pnpm/action-setup@v2
-        with:
-          version: latest
-      - name: Set node
-        if: ${{ steps.release.outputs.release_created }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: pnpm
-      - name: Install
-        if: ${{ steps.release.outputs.release_created }}
-        shell: sh
-        run: pnpm install --no-frozen-lockfile
-      - name: Build with Next.js
-        if: ${{ steps.release.outputs.release_created }}
-        shell: sh
-        run: pnpm run build
-      - name: Static HTML export with Next.js
-        if: ${{ steps.release.outputs.release_created }}
-        shell: sh
-        run: pnpm run export
+        uses: actions/configure-pages@v3.0.6
       - name: Upload artifact
-        if: ${{ steps.release.outputs.release_created }}
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v1.0.8
         with:
-          path: ./out
+          path: "./packages/page/build"
       - name: Deploy to GitHub Pages
-        if: ${{ steps.release.outputs.release_created }}
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v2.0.1
