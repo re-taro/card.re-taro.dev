@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.9](https://github.com/re-taro/card.re-taro.dev/compare/1.3.8...1.3.9) (2023-06-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @next/font to v13.4.5 ([aceb9c5](https://github.com/re-taro/card.re-taro.dev/commit/aceb9c5133cc36d89feb0c7b226b76d79e6f11bb))
+* **deps:** update dependency next to v13.4.5 ([1bd8781](https://github.com/re-taro/card.re-taro.dev/commit/1bd8781d1fabe6a8bb17d0adce7c54b64b96bd81))
+
 ## [1.3.8](https://github.com/re-taro/card.re-taro.dev/compare/1.3.7...1.3.8) (2023-06-06)
 
 
