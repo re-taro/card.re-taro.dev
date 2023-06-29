@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.12](https://github.com/re-taro/card.re-taro.dev/compare/1.3.11...1.3.12) (2023-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vanilla-extract/css to v1.12.0 ([86265bd](https://github.com/re-taro/card.re-taro.dev/commit/86265bd96f18300818fcca7129d1008c02e3e1d4))
+* **deps:** update dependency three to v0.154.0 ([ab54524](https://github.com/re-taro/card.re-taro.dev/commit/ab545249c01056550f75830ea23d17f37c1bfa98))
+
 ## [1.3.11](https://github.com/re-taro/card.re-taro.dev/compare/1.3.10...1.3.11) (2023-06-22)
 
 
