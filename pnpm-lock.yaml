@@ -29,8 +29,8 @@ devDependencies:
     specifier: 1.9.25
     version: 1.9.25(eslint@8.46.0)(svelte@3.59.1)(typescript@5.1.6)
   '@types/node':
-    specifier: 18.17.2
-    version: 18.17.2
+    specifier: 18.17.3
+    version: 18.17.3
   '@types/react':
     specifier: 18.2.18
     version: 18.2.18
@@ -774,8 +774,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node@18.17.2:
-    resolution: {integrity: sha512-wBo3KqP/PBqje5TI9UTiuL3yWfP6sdPtjtygSOqcYZWT232dfDeDOnkDps5wqZBP9NgGgYrNejinl0faAuE+HQ==}
+  /@types/node@18.17.3:
+    resolution: {integrity: sha512-2x8HWtFk0S99zqVQABU9wTpr8wPoaDHZUcAkoTKH+nL7kPv3WUI9cRi/Kk5Mz4xdqXSqTkKP7IWNoQQYCnDsTA==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -2748,7 +2748,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 18.17.2
+      '@types/node': 18.17.3
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
