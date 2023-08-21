@@ -9,8 +9,8 @@ dependencies:
     specifier: 13.4.19
     version: 13.4.19
   '@vanilla-extract/css':
-    specifier: 1.12.0
-    version: 1.12.0
+    specifier: 1.13.0
+    version: 1.13.0
   next:
     specifier: 13.4.19
     version: 13.4.19(@babel/core@7.21.0)(react-dom@18.2.0)(react@18.2.0)
@@ -967,8 +967,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vanilla-extract/css@1.12.0:
-    resolution: {integrity: sha512-TEttZfnqTRtwgVYiBWQSGGUiVaYWReHp59DsavITEvh4TpJNifZFGhBznHx4wQFEsyio6xA513jps4tmqR6zmw==}
+  /@vanilla-extract/css@1.13.0:
+    resolution: {integrity: sha512-JFFBXhnJrPlGqHBabagXqo5ghXw9mtV270ycIGyLDZG8NAK5eRwAYkMowAxuzK7wZSm67GnETWYB7b0AUmyttg==}
     dependencies:
       '@emotion/hash': 0.9.0
       '@vanilla-extract/private': 1.0.3
@@ -988,7 +988,7 @@ packages:
       '@babel/core': 7.21.0
       '@babel/plugin-syntax-typescript': 7.20.0(@babel/core@7.21.0)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.1
-      '@vanilla-extract/css': 1.12.0
+      '@vanilla-extract/css': 1.13.0
       esbuild: 0.16.17
       eval: 0.1.6
       find-up: 5.0.0
