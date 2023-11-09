@@ -21,7 +21,7 @@
     "fmt": "eslint . --ext .cjs,.ts,.tsx --fix"
   },
   "dependencies": {
-    "@next/font": "14.0.1",
+    "@next/font": "14.0.2",
     "@vanilla-extract/css": "1.13.0",
     "next": "14.0.1",
     "react": "18.2.0",
