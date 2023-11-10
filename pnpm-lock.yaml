@@ -41,8 +41,8 @@ devDependencies:
     specifier: 0.158.2
     version: 0.158.2
   '@vanilla-extract/next-plugin':
-    specifier: 2.3.1
-    version: 2.3.1(next@14.0.2)(webpack@5.89.0)
+    specifier: 2.3.2
+    version: 2.3.2(next@14.0.2)(webpack@5.89.0)
   eslint:
     specifier: 8.53.0
     version: 8.53.0
@@ -1004,8 +1004,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vanilla-extract/next-plugin@2.3.1(next@14.0.2)(webpack@5.89.0):
-    resolution: {integrity: sha512-aoDTnCY3gJXjytoxlA7Xk4A/BDxdzUBeZhHWypauKJ06XJKlV/odjXt8K5FhCrMy8o+nqnCpjOD6KXcg6JmIdw==}
+  /@vanilla-extract/next-plugin@2.3.2(next@14.0.2)(webpack@5.89.0):
+    resolution: {integrity: sha512-wBulJAhmr8guYo5YxrfsA1T/TQ3tbMJjNtE6QrVZvs1NTnT9/WAmf4IVrbUvQbH+LBj5LXO8dRzueGPAvepSng==}
     peerDependencies:
       next: '>=12.1.7'
     dependencies:
