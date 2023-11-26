@@ -1,5 +1,36 @@
 # Changelog
 
+## [1.3.21](https://github.com/re-taro/card.re-taro.dev/compare/1.3.20...1.3.21) (2023-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @next/font to v13.5.1 ([ba11197](https://github.com/re-taro/card.re-taro.dev/commit/ba1119721a09ea198d1146de472ef6ec145ec2aa))
+* **deps:** update dependency @next/font to v13.5.2 ([9a3b339](https://github.com/re-taro/card.re-taro.dev/commit/9a3b339ff104eb2e33ee704c623c431550a81a00))
+* **deps:** update dependency @next/font to v13.5.3 ([ba5c3be](https://github.com/re-taro/card.re-taro.dev/commit/ba5c3be4ae9e1193e2ff37179a5c898431b76e5d))
+* **deps:** update dependency @next/font to v13.5.4 ([7a7325c](https://github.com/re-taro/card.re-taro.dev/commit/7a7325c5a3411a279889aed78a5c6636a6d2da74))
+* **deps:** update dependency @next/font to v13.5.5 ([7f13731](https://github.com/re-taro/card.re-taro.dev/commit/7f1373129c9916b6d70475363f102c0ea96e33c3))
+* **deps:** update dependency @next/font to v13.5.6 ([80d4d0c](https://github.com/re-taro/card.re-taro.dev/commit/80d4d0cdb0bb08a70ff3121261f69d23b762ef70))
+* **deps:** update dependency @next/font to v14 ([565c683](https://github.com/re-taro/card.re-taro.dev/commit/565c683a9017b1c315fafc86e9807950bf594b4b))
+* **deps:** update dependency @next/font to v14.0.1 ([a6bf928](https://github.com/re-taro/card.re-taro.dev/commit/a6bf9288e428e6e7d1b44b526c946205e8e679f0))
+* **deps:** update dependency @next/font to v14.0.2 ([6dbe179](https://github.com/re-taro/card.re-taro.dev/commit/6dbe1793c14c8f23032cc557e7cf4d38289a1111))
+* **deps:** update dependency @next/font to v14.0.3 ([3601fc7](https://github.com/re-taro/card.re-taro.dev/commit/3601fc7d44c0512d5d6a51fa5d3578fda5fe6e03))
+* **deps:** update dependency @vanilla-extract/css to v1.14.0 ([b81308a](https://github.com/re-taro/card.re-taro.dev/commit/b81308af284a30b31bcae141e7ca8baaedfb813a))
+* **deps:** update dependency next to v13.5.1 ([4790fbd](https://github.com/re-taro/card.re-taro.dev/commit/4790fbd596f6bfd9c1667e47fcca77cd01fe0632))
+* **deps:** update dependency next to v13.5.2 ([cdcd2c8](https://github.com/re-taro/card.re-taro.dev/commit/cdcd2c861200ad3153e964f76d46afd7d1e204e4))
+* **deps:** update dependency next to v13.5.3 ([66863c0](https://github.com/re-taro/card.re-taro.dev/commit/66863c0b9961f4ce53ff5ad8cfc365c8d5d1a648))
+* **deps:** update dependency next to v13.5.4 ([25e7b94](https://github.com/re-taro/card.re-taro.dev/commit/25e7b94eae55a320a89e67b692c9c21a5508dbbe))
+* **deps:** update dependency next to v13.5.5 ([8f88fec](https://github.com/re-taro/card.re-taro.dev/commit/8f88fec5643dd8903e8f5099ee27bd29aa22a035))
+* **deps:** update dependency next to v13.5.6 ([514f900](https://github.com/re-taro/card.re-taro.dev/commit/514f900324632bf2a865b1e9455e89ffc7ec1f15))
+* **deps:** update dependency next to v14 ([bf58134](https://github.com/re-taro/card.re-taro.dev/commit/bf5813460849d6e0a10e3aa8fda43884871b43d1))
+* **deps:** update dependency next to v14.0.1 ([aadab98](https://github.com/re-taro/card.re-taro.dev/commit/aadab986c4037f8cca02073bd144a58403268012))
+* **deps:** update dependency next to v14.0.2 ([95b6c90](https://github.com/re-taro/card.re-taro.dev/commit/95b6c9005b01aae588f658c268c01313c4b54a9c))
+* **deps:** update dependency next to v14.0.3 ([9393934](https://github.com/re-taro/card.re-taro.dev/commit/9393934a3480e860d0e689825d191951c00ab8c7))
+* **deps:** update dependency three to v0.156.0 ([7752597](https://github.com/re-taro/card.re-taro.dev/commit/77525974eade19849a73efa848894980334facb8))
+* **deps:** update dependency three to v0.156.1 ([f9c7187](https://github.com/re-taro/card.re-taro.dev/commit/f9c71876095deff100625f4329658e758907e50e))
+* **deps:** update dependency three to v0.157.0 ([96e2056](https://github.com/re-taro/card.re-taro.dev/commit/96e2056adde7c75e9898ed39ca666a07174c0644))
+* **deps:** update dependency three to v0.158.0 ([520474b](https://github.com/re-taro/card.re-taro.dev/commit/520474b6c2562fc5a9ffcc0fd43bef38a22fe2dd))
+
 ## [1.3.20](https://github.com/re-taro/card.re-taro.dev/compare/1.3.19...1.3.20) (2023-08-28)
 
 
