@@ -38,8 +38,8 @@ devDependencies:
     specifier: 18.2.17
     version: 18.2.17
   '@types/three':
-    specifier: 0.158.3
-    version: 0.158.3
+    specifier: 0.159.0
+    version: 0.159.0
   '@vanilla-extract/next-plugin':
     specifier: 2.3.2
     version: 2.3.2(next@14.0.3)(webpack@5.89.0)
@@ -811,8 +811,8 @@ packages:
     resolution: {integrity: sha512-9w+a7bR8PeB0dCT/HBULU2fMqf6BAzvKbxFboYhmDtDkKPiyXYbjoe2auwsXlEFI7CFNMF1dCv3dFH5Poy9R1w==}
     dev: true
 
-  /@types/three@0.158.3:
-    resolution: {integrity: sha512-6Qs1rUvLSbkJ4hlIe6/rdwIf61j1x2UKvGJg7s8KjswYsz1C1qDTs6voVXXB8kYaI0hgklgZgbZUupfL1l9xdA==}
+  /@types/three@0.159.0:
+    resolution: {integrity: sha512-2gybdh7HtX+rGUgslzK7QEJfzD2I0qrbUGzKk+dK0FDx49UHkNX0rqZVRzIgeFjBd1HzzhNNgwNoMacm3Wyc7w==}
     dependencies:
       '@types/stats.js': 0.17.0
       '@types/webxr': 0.5.1
