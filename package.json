@@ -36,7 +36,7 @@
     "@types/three": "0.162.0",
     "@vanilla-extract/next-plugin": "2.3.6",
     "eslint": "8.57.0",
-    "typescript": "5.3.3",
+    "typescript": "5.4.2",
     "webpack": "5.90.3"
   },
   "packageManager": "pnpm@8.15.4"
