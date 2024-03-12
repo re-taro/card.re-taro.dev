@@ -29,7 +29,7 @@
     "three": "0.162.0"
   },
   "devDependencies": {
-    "@re-taro/eslint-config": "1.10.4",
+    "@re-taro/eslint-config": "3.1.1",
     "@types/node": "18.19.23",
     "@types/react": "18.2.65",
     "@types/react-dom": "18.2.21",
