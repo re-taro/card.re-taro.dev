@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@next/font':
-    specifier: 14.1.3
-    version: 14.1.3(next@14.1.3)
+    specifier: 14.1.4
+    version: 14.1.4(next@14.1.3)
   '@vanilla-extract/css':
     specifier: 1.14.1
     version: 1.14.1
@@ -594,8 +594,8 @@ packages:
       glob: 7.1.7
     dev: true
 
-  /@next/font@14.1.3(next@14.1.3):
-    resolution: {integrity: sha512-YjdwNKdjR0FMAmH24sNjBfZs9+dVp3pN/zQi8lZxDo2YeOVf9cbB3qk95KARB1r0WxmpSYLlFTgaEPA7DlmYww==}
+  /@next/font@14.1.4(next@14.1.3):
+    resolution: {integrity: sha512-a7CnpjEA3zXsKpCB7JX92mNiDYvjDImLfRjK+szi/q64vwbNrrs54up2xgFE1T4K1OE8GaI/eQ3zrZFWIbOJ1Q==}
     peerDependencies:
       next: '*'
     dependencies:
