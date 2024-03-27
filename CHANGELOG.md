@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.3.22](https://github.com/re-taro/card.re-taro.dev/compare/1.3.21...1.3.22) (2024-03-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @next/font to v14.0.4 ([e0b209c](https://github.com/re-taro/card.re-taro.dev/commit/e0b209c0704ef14d11e39f71207e1021ea5bfb82))
+* **deps:** update dependency @next/font to v14.1.0 ([547455b](https://github.com/re-taro/card.re-taro.dev/commit/547455b29d1f1ca9230c4eed2e29caa0e64958b2))
+* **deps:** update dependency @next/font to v14.1.2 ([c3e03d1](https://github.com/re-taro/card.re-taro.dev/commit/c3e03d1e9a703bcdc836af92ad84fe7f33197ae3))
+* **deps:** update dependency @next/font to v14.1.3 ([e6aeebb](https://github.com/re-taro/card.re-taro.dev/commit/e6aeebb1b39a3ca9a952859c043ec0af9877496f))
+* **deps:** update dependency @next/font to v14.1.4 ([880ee4c](https://github.com/re-taro/card.re-taro.dev/commit/880ee4c0acaeb93479272bcc10b3059554582f41))
+* **deps:** update dependency @vanilla-extract/css to v1.14.1 ([7dd8b51](https://github.com/re-taro/card.re-taro.dev/commit/7dd8b51b20dce86487cf61f0421eed21aaf803e9))
+* **deps:** update dependency next to v14.0.4 ([e6a91d2](https://github.com/re-taro/card.re-taro.dev/commit/e6a91d2f3b570f65b46be581190227122e142bd7))
+* **deps:** update dependency next to v14.1.0 ([a8398ff](https://github.com/re-taro/card.re-taro.dev/commit/a8398ff9325106c9fcc2836a4eceddc30376b1ee))
+* **deps:** update dependency next to v14.1.1 ([6ca705f](https://github.com/re-taro/card.re-taro.dev/commit/6ca705f99557512945f419db1970c0109feab1a9))
+* **deps:** update dependency next to v14.1.2 ([d517435](https://github.com/re-taro/card.re-taro.dev/commit/d51743546c4855106e421b31a0aa11711d8413f0))
+* **deps:** update dependency next to v14.1.3 ([a742361](https://github.com/re-taro/card.re-taro.dev/commit/a7423619345155e2ab61efd580982883c657e8b6))
+* **deps:** update dependency next to v14.1.4 ([512f19f](https://github.com/re-taro/card.re-taro.dev/commit/512f19f8b448ccaf6ba35485ac65183bada0871d))
+* **deps:** update dependency three to v0.159.0 ([515c355](https://github.com/re-taro/card.re-taro.dev/commit/515c355e56fd05a02f7c0171d523eaf8851800a1))
+* **deps:** update dependency three to v0.160.0 ([fda50b0](https://github.com/re-taro/card.re-taro.dev/commit/fda50b0fdd9f1d3f4ac8b2ce6c7d97a86d5d9c2f))
+* **deps:** update dependency three to v0.160.1 ([b9fd5aa](https://github.com/re-taro/card.re-taro.dev/commit/b9fd5aa061a57f1a71f42f5ed9a0221e5110198e))
+* **deps:** update dependency three to v0.161.0 ([e17ebd0](https://github.com/re-taro/card.re-taro.dev/commit/e17ebd03ed61f54968e361a5db3838ba0f983433))
+* **deps:** update dependency three to v0.162.0 ([8510ff9](https://github.com/re-taro/card.re-taro.dev/commit/8510ff93babadef2ed3c4241832530177cde48e0))
+
 ## [1.3.21](https://github.com/re-taro/card.re-taro.dev/compare/1.3.20...1.3.21) (2023-11-24)
 
 
